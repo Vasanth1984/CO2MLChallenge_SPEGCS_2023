@@ -1,0 +1,227 @@
+packages = [
+    'absl-py==1.4.0',
+    'aiosignal==1.3.1',
+    'alembic==1.9.4',
+    'anaconda-navigator==2.4.0',
+    'appdirs==1.4.4',
+    'argh==0.26.2',
+    'astunparse==1.6.3',
+    'atomicwrites==1.4.0',
+    'awscli==1.27.79',
+    'azure-core==1.26.3',
+    'azure-storage-blob==12.15.0',
+    'backports.weakref==1.0.post1',
+    'bkcharts==0.2',
+    'black==19.10b0',
+    'blis==0.7.9',
+    'boto==2.49.0',
+    'botocore==1.29.79',
+    'brotlipy==0.7.0',
+    'cachetools==5.3.0',
+    'catalogue==2.0.8',
+    'catboost==1.1.1',
+    'click==8.0.3',
+    'click-plugins==1.1.1',
+    'cligj==0.7.2',
+    'clyent==1.2.2',
+    'cmaes==0.9.1',
+    'colorlog==6.7.0',
+    'colorlover==0.3.0',
+    'comtypes==1.1.10',
+    'conda==4.10.3',
+    'conda-build==3.21.6',
+    'conda-verify==3.4.2',
+    'confection==0.0.4',
+    'cufflinks==0.17.3',
+    'cycler==0.10.0',
+    'cymem==2.0.7',
+    'cytoolz==0.11.0',
+    'daal4py==2021.3.0',
+    'dask==2021.10.0',
+    'databricks-cli==0.17.4',
+    'descartes==1.1.0',
+    'distlib==0.3.6',
+    'docker==6.0.1',
+    'docopt==0.6.2',
+    'entrypoints==0.3',
+    'ephem==4.1.4',
+    'et-xmlfile==1.1.0',
+    'Fiona==1.9.1',
+    'flatbuffers==23.1.21',
+    'fonttools==4.25.0',
+    'frozenlist==1.3.3',
+    'fst-pso==1.8.1',
+    'funcy==1.18',
+    'FuzzyTM==2.0.5',
+    'gast==0.4.0',
+    'gensim==4.3.0',
+    'geopandas==0.12.2',
+    'gitdb==4.0.10',
+    'GitPython==3.1.31',
+    'google-api-core==2.11.0',
+    'google-auth==2.16.1',
+    'google-auth-oauthlib==0.4.6',
+    'google-cloud-core==2.3.2',
+    'google-cloud-storage==2.7.0',
+    'google-crc32c==1.5.0',
+    'google-pasta==0.2.0',
+    'google-resumable-media==2.4.1',
+    'googleapis-common-protos==1.58.0',
+    'graphviz==0.20.1',
+    'grpcio==1.51.1',
+    'hampel==0.0.5',
+    'htmlmin==0.1.12',
+    'hyperopt==0.2.7',
+    'ImageHash==4.3.1',
+    'imbalanced-learn==0.10.1',
+    'inflection==0.5.1',
+    'isodate==0.6.1',
+    'Jinja2==3.1.2',
+    'jmespath==1.0.1',
+    'joblib==1.2.0',
+    'keras==2.11.0',
+    'kmodes==0.12.2',
+    'korean-lunar-calendar==0.3.1',
+    'langcodes==3.3.0',
+    'libclang==15.0.6.1',
+    'lightgbm==3.3.5',
+    'llvmlite==0.37.0',
+    'locket==0.2.1',
+    'Mako==1.2.4',
+    'Markdown==3.4.1',
+    'MarkupSafe==2.1.2',
+    'mccabe==0.6.1',
+    'mediapipe==0.9.1.0',
+    'miniful==0.0.6',
+    'mizani==0.7.3',
+    'mkl-fft==1.3.1',
+    'mkl-service==2.4.0',
+    'mlflow==2.1.1',
+    'mlxtend==0.19.0',
+    'mpmath==1.2.1',
+    'multimethod==1.9.1',
+    'munch==2.5.0',
+    'munkres==1.1.4',
+    'murmurhash==1.0.9',
+    'mypy-extensions==0.4.3',
+    'navigator-updater==0.2.1',
+    'nltk==3.6.5',
+    'numpy==1.21.6',
+    'oauthlib==3.2.2',
+    'opencv-contrib-python==4.7.0.68',
+    'opencv-python==4.7.0.68',
+    'opt-einsum==3.3.0',
+    'optuna==3.1.0',
+    'palettable==3.3.0',
+    'pandas-profiling==3.6.6',
+    'parameterized==0.9.0',
+    'patchify==0.2.3',
+    'pathspec==0.7.0',
+    'pathy==0.10.1',
+    'patsy==0.5.2',
+    'pep8==1.7.1',
+    'phik==0.12.3',
+    'Pillow==8.4.0',
+    'pipreqs==0.4.13',
+    'pkginfo==1.7.1',
+    'platformdirs==3.0.0',
+    'plotly==5.4.0',
+    'plotnine==0.8.0',
+    'ply==3.11',
+    'pmdarima==2.0.3',
+    'preshed==3.0.8',
+    'protobuf==3.19.6',
+    'py4j==0.10.9.7',
+    'pyaml==21.10.1',
+    'pyarrow==10.0.1',
+    'pyasn1==0.4.8',
+    'pyasn1-modules==0.2.8',
+    'pycaret==2.2.2',
+    'pycosat==0.6.3',
+    'pycurl==7.44.1',
+    'pydantic==1.10.5',
+    'pydotplus==2.0.2',
+    'pyFUME==0.2.25',
+    'pyLDAvis==3.3.1',
+    'pyls-spyder==0.4.0',
+    'PyMeeus==0.5.12',
+    'pynndescent==0.5.8',
+    'pyod==1.0.7',
+    'pyodbc===4.0.0-unsupported',
+    'pyproj==3.4.1',
+    'pyreadline==2.1',
+    'pytest==6.2.4',
+    'python-lsp-jsonrpc==1.0.0',
+    'python-lsp-server==1.2.4',
+    'pytz==2021.3',
+    'pywin32==305.1',
+    'PyYAML==6.0',
+    'querystring-parser==1.2.4',
+    'ray==2.3.0',
+    'requests-oauthlib==1.3.1',
+    'rsa==4.7.2',
+    's3transfer==0.6.0',
+    'scikit-image==0.18.3',
+    'scikit-learn-intelex==2021.20210714.120553',
+    'scikit-optimize==0.9.0',
+    'scikit-plot==0.3.7',
+    'setuptools-git==1.2',
+    'shap==0.41.0',
+    'shapely==2.0.1',
+    'simpful==2.10.0',
+    'simplegeneric==0.8.1',
+    'sip==4.19.13',
+    'skforecast==0.7.0',
+    'sklearn==0.0.post1',
+    'slicer==0.0.7',
+    'smart-open==6.3.0',
+    'smmap==5.0.0',
+    'spacy==3.5.0',
+    'spacy-legacy==3.0.12',
+    'spacy-loggers==1.0.4',
+    'Sphinx==4.2.0',
+    'sqlparse==0.4.3',
+    'srsly==2.4.5',
+    'tables==3.6.1',
+    'tabulate==0.9.0',
+    'tangled-up-in-unicode==0.2.0',
+    'TBB==0.2',
+    'tenacity==8.0.1',
+    'tensorboard==2.11.2',
+    'tensorboard-data-server==0.6.1',
+    'tensorboard-plugin-wit==1.8.1',
+    'tensorboardX==2.6',
+    'tensorflow==2.11.0',
+    'tensorflow-estimator==2.11.0',
+    'tensorflow-intel==2.11.0',
+    'tensorflow-io-gcs-filesystem==0.30.0',
+    'termcolor==2.2.0',
+    'terminado==0.9.4',
+    'textblob==0.17.1',
+    'thinc==8.1.7',
+    'tune-sklearn==0.4.5',
+    'typeguard==2.13.3',
+    'typer==0.7.0',
+    'typing_extensions==4.5.0',
+    'tzdata==2023.3',
+    'umap-learn==0.5.3',
+    'unicodecsv==0.14.1',
+    'urllib3==1.26.7',
+    'virtualenv==20.19.0',
+    'visions==0.7.5',
+    'waitress==2.1.2',
+    'wasabi==0.10.1',
+    'webencodings==0.5.1',
+    'websocket-client==1.5.1',
+    'win-unicode-console==0.5',
+    'wincertstore==0.2',
+    'wordcloud==1.8.2.2',
+    'xgboost==1.7.4',
+    'xlwings==0.24.9',
+    'xlwt==1.3.0',
+    'yarg==0.1.9',
+    'ydata-profiling==4.0.0',
+    'yellowbrick==1.5',
+    'zict==2.0.0',
+    'zope.event==4.5.0',
+]
